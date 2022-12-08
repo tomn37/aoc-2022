@@ -43,8 +43,6 @@ for (let dir of dirs) {
     }
 }
 
-console.log(dirSize)
-
 console.log(Object.values(dirSize).reduce((accum, next)=> accum += next, 0))
 
 
